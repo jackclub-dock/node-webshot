@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:lts
 LABEL authors="mazhijie"
 
 RUN apt-get update && apt-get install -y \
