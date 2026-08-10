@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@puppeteer/browsers@3.0.6":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@puppeteer/browsers/-/browsers-3.0.6.tgz#6b772e0fc11deb255c8a3c14219e34a16a2ab23d"
-  integrity sha512-B/gKoqlFkzhvzsI6jo9K1cZz9o5ypviVv/xu8CwA4grZzyVwN+XfkT+tu8T1zrauuEXv6VhS2oGX+6NL95WcKA==
+"@puppeteer/browsers@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@puppeteer/browsers/-/browsers-3.1.0.tgz#5728ae0bc649263133ac1f8bd5d360eb75d11748"
+  integrity sha512-RDLpio3fH/qrj5k4DVY6eyiN8tCS0Zovd/6jW//n605oeqkWcUjn+3k+9ZtZBnbwMpsu0F7xDIiKXvVmG5c5Bw==
   dependencies:
     modern-tar "^0.7.6"
     yargs "^18.0.0"
@@ -64,10 +64,10 @@ call-bound@^1.0.2:
     call-bind-apply-helpers "^1.0.2"
     get-intrinsic "^1.3.0"
 
-chromium-bidi@16.0.1:
-  version "16.0.1"
-  resolved "https://registry.yarnpkg.com/chromium-bidi/-/chromium-bidi-16.0.1.tgz#0c6b0e55065468fc777d62032b63b73f614b1d88"
-  integrity sha512-J63PGu/9PpeCwLIcKYyzWP6yaVL5pxuBc0shlYCYM8BaAkmlwiQboXO1iNbOgSDbVklEyYFfNEcHD8oOAWacUA==
+chromium-bidi@17.0.2:
+  version "17.0.2"
+  resolved "https://registry.yarnpkg.com/chromium-bidi/-/chromium-bidi-17.0.2.tgz#921a586deecd0c2d8b9242c4c1b73c3aa39ff77c"
+  integrity sha512-5v9GQFhTktFvotn/OFNJBmKLKRAb6n9r0bVCwf7sHgWc3/JryK0bj1nn93L3pHFrfgcsu6Be6EWsDi+1XHTGDg==
   dependencies:
     mitt "^3.0.1"
     zod "^3.24.1"
@@ -115,10 +115,10 @@ depd@^2.0.0, depd@~2.0.0:
   resolved "https://registry.yarnpkg.com/depd/-/depd-2.0.0.tgz#b696163cc757560d09cf22cc8fad1571b79e76df"
   integrity sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==
 
-devtools-protocol@0.0.1638949:
-  version "0.0.1638949"
-  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.1638949.tgz#206eb6ecc1c35d2dbc833256c37655a110fbdba1"
-  integrity sha512-mXwg4Fqnv0WR4iuAT/gYUmctNkjILwXFHyZ+m7Ty1dfr0ezZt2U3gnrrJTfRobJTHoXf+IbuFvFITzLrLFjwJA==
+devtools-protocol@0.0.1653615:
+  version "0.0.1653615"
+  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.1653615.tgz#c600e0c619612156b2422a66d958ba188d87dbe8"
+  integrity sha512-pGVkY3T/qXxAp2nFPodwYqOevk6ncNMSmvL8QfRCx5ZWGd6Vor7AFNmyaA8Zs6uJyP1QAfjuLandCgvSix1BNA==
 
 dunder-proto@^1.0.1:
   version "1.0.1"
@@ -410,28 +410,28 @@ proxy-addr@^2.0.7:
     forwarded "0.2.0"
     ipaddr.js "1.9.1"
 
-puppeteer-core@25.3.0:
-  version "25.3.0"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-25.3.0.tgz#f32555f3ac64af2cc44f8d632ddf2fa5f2fad95f"
-  integrity sha512-fm+wpUr2oigH1PXZvwgATrM2tYWHMDG8ASzTEe9uukCye4X5Ldx1K5BTHPFKITrIWvQQAQ256d1NpbEveBcKjA==
+puppeteer-core@25.5.0:
+  version "25.5.0"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-25.5.0.tgz#a41b14d582056b998e0bc3561ac47c7615d38a53"
+  integrity sha512-XPNT0dQJtphqQ4I29zxlG4IIPbg1iEHAQKWuQgtMJGXjACV77pZSmJvDi51IIIfd+DTKICcopJwUx4upVQ4XbA==
   dependencies:
-    "@puppeteer/browsers" "3.0.6"
-    chromium-bidi "16.0.1"
-    devtools-protocol "0.0.1638949"
+    "@puppeteer/browsers" "3.1.0"
+    chromium-bidi "17.0.2"
+    devtools-protocol "0.0.1653615"
     typed-query-selector "^2.12.2"
     webdriver-bidi-protocol "0.4.2"
-    ws "^8.21.0"
+    ws "^8.21.1"
 
-puppeteer@^25.3.0:
-  version "25.3.0"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-25.3.0.tgz#a77a9e76b1099ff91d9bc7824b3401cd998fa27e"
-  integrity sha512-O1tx8S315aw8eI99HZ5ZNcVEzJ9+jKF//eO5UvfZ3cXJ6okZ5sX3Y50u7DJaM+ewEK4LqXP068tBhfRaWikj+g==
+puppeteer@^25.5.0:
+  version "25.5.0"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-25.5.0.tgz#ed563f6ae598625a6d16c1c47f937ff39b38445e"
+  integrity sha512-qpp73xblxNr+bF0nSXTodM3v+zcK5IPo/GkjLsdUqRf/qpLJp/1KxBUbstoMMnwnPw9xD6OMei8kmYf6CLWfGw==
   dependencies:
-    "@puppeteer/browsers" "3.0.6"
-    chromium-bidi "16.0.1"
-    devtools-protocol "0.0.1638949"
+    "@puppeteer/browsers" "3.1.0"
+    chromium-bidi "17.0.2"
+    devtools-protocol "0.0.1653615"
     lilconfig "^3.1.3"
-    puppeteer-core "25.3.0"
+    puppeteer-core "25.5.0"
     typed-query-selector "^2.12.2"
 
 qs@^6.14.0:
@@ -618,10 +618,10 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
-ws@^8.21.0:
-  version "8.21.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.21.0.tgz#012e413fc07429945121b0c153158c4343086951"
-  integrity sha512-Vsp28b7DRcimFQvrqu2Wek3z1iYxDCWqHYB8Qsnk/S4RfaCQzPGPyBNuVjJV3cd6UiKtUtp6sNM77gWvzcCH+g==
+ws@^8.21.1:
+  version "8.21.3"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.21.3.tgz#660b4faddb6a3e575c86e078126919961f4de4fc"
+  integrity sha512-201TZ/kPWxoPr/OKWjquZR1SWKXcvxdH+e1xrx89b3YbmzLMFCLfnaG1HFIgWzJOEWZ7MvpK++odZufgYR50Rw==
 
 y18n@^5.0.5:
   version "5.0.8"
